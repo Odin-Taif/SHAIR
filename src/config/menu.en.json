@@ -1,0 +1,30 @@
+{
+  "main": [
+    {
+      "name": "SERVICES",
+      "url": "/servicespage"
+    },
+    {
+      "name": "ACADEMY",
+      "url": "/academy"
+    },
+    {
+      "name": "ABOUT US",
+      "url": "/about"
+    },
+    {
+      "name": "CONTACT",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Imprint",
+      "url": "/imprint"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    }
+  ]
+}
