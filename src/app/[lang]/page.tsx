@@ -56,6 +56,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
               autoPlay
               loop
               muted
+              playsInline
             />
           </div>
         )}

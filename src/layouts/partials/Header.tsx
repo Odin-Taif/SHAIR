@@ -122,16 +122,6 @@ const Header = ({
               )}
             </React.Fragment>
           ))}
-          {/* {navigation_button.enable && (
-            <li className="mt-4 inline-block lg:hidden">
-              <Link
-                className="btn btn-outline-primary btn-sm"
-                href={navigation_button.link}
-              >
-                {navigation_button.label}
-              </Link>
-            </li>
-          )} */}
         </ul>
         <div className="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
           {settings.search && (
@@ -151,14 +141,6 @@ const Header = ({
               className="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded"
             />
           )}
-          {/* {navigation_button.enable && (
-            <Link
-              className="btn btn-outline-primary btn-sm hidden lg:inline-block"
-              href={navigation_button.link}
-            >
-              {navigation_button.label}
-            </Link>
-          )} */}
         </div>
       </nav>
     </header>
