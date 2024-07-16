@@ -1,0 +1,17 @@
+{
+  "full_name": "Vollständiger Name",
+  "full_name_placeholder": "Geben Sie Ihren vollständigen Namen ein",
+  "mail": "Geschäftliche E-Mail",
+  "mail_placeholder": "john.doe@email.com",
+  "message": "Noch etwas?",
+  "message_placeholder": "Nachricht hier...",
+  "submit": "Absenden",
+  "read_more": "Weiterlesen",
+  "categories": "Kategorien",
+  "tags": "Tags",
+  "share": "Teilen",
+  "related_post": "Ähnlicher Beitrag",
+  "page_not_found": "Seite nicht gefunden",
+  "page_not_found_content": "Die Seite, die Sie suchen, wurde möglicherweise gelöscht, umbenannt oder ist vorübergehend nicht verfügbar.",
+  "back_to_home": "Zurück zur Startseite"
+}

@@ -1,29 +1,29 @@
 {
   "main": [
     {
-      "name": "SERVICES",
+      "name": "DIENSTLEISTUNGEN",
       "url": "/servicespage"
     },
     {
-      "name": "ACADEMY",
+      "name": "AKADEMIE",
       "url": "/academy"
     },
     {
-      "name": "ABOUT US",
+      "name": "ÜBER UNS",
       "url": "/aboutus"
     },
     {
-      "name": "CONTACT",
+      "name": "KONTAKT",
       "url": "/contact"
     }
   ],
   "footer": [
     {
-      "name": "Imprint",
+      "name": "Impressum",
       "url": "/imprint"
     },
     {
-      "name": "Privacy Policy",
+      "name": "Datenschutzrichtlinie",
       "url": "/privacy-policy"
     }
   ]

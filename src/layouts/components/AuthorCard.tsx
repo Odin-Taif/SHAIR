@@ -18,7 +18,7 @@ const AuthorCard = ({ data, lang }: { data: any; lang: string }) => {
         />
       )}
       <h4 className="mb-3">
-        <Link href={slugSelector(lang, `/authors/${data.slug}`)}>{title}</Link>
+        <Link href={slugSelector(lang, `/aboutus/${data.slug}`)}>{title}</Link>
       </h4>
       <p className="mb-4">{plainify(data.content?.slice(0, 100))}</p>
       <Social source={social} className="social-icons" />

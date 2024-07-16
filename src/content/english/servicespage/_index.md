@@ -7,27 +7,24 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
-    image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+  - title: "External & flexible personal pool"
+    image: "/images/service2.webp"
+    content: "We recruit flexible staff on an hourly basis in cooperation with Coople. With everything and dran - incl. Airport ID."
 
-  - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Human Resources & Payroll Services"
+    image: "/images/service4.webp"
+    content: "We take over your entire HR administration and the settlement of your wages.."
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Internal communication for more productivity"
+    image: "/images/service3.jpeg"
+    content: "As a sales partner, we support and support them in implementing the internal communication platform BEEKEEEPER."
 
-  - title: "What's Included in Nextplate"
-    image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+  - title: "Consulting & Project Management"
+    image: "/images/service5.jpeg"
+    content: "Do you need support for a project? We are happy to assist you in advising and help you with the implementation."
 
-  - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Academy"
+    image: "/images/service1.webp"
+    content: "Your entry to an exciting working world at the airport. In addition to beginner courses, we also offer numerous refresher courses."
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
 ---
