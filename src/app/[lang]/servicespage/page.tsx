@@ -8,11 +8,21 @@ import path from "path";
 import languages from "@/config/language.json";
 import { markdownify } from "@/lib/utils/textConverter";
 
+// remove dynamicParams
+export const dynamicParams = false;
+
+// generate static params
+export async function generateStaticParams() {
+  return getActiveLanguages().map((language) => ({
+    lang: language.languageCode,
+  }));
+}
 const Servicespage = ({ params }: { params: { lang: string } }) => {
   const lang = params.lang;
   const language = languages.find(
     (language) => language.languageCode === lang,
   )!;
+
   const servicespage = getListPage(
     path.join(language?.contentDir, "servicespage/_index.md"),
   );
