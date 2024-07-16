@@ -1,14 +1,11 @@
-// import AuthorCard from "@/components/AuthorCard";
-// import Breadcrumbs from "@/components/Breadcrumbs";
 import ServiceCard from "@/components/ServiceCard";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { getActiveLanguages, getLanguageObj } from "@/lib/languageParser";
 import PageHeader from "@/partials/PageHeader";
-// import SeoMeta from "@/partials/SeoMeta";
+import SeoMeta from "@/partials/SeoMeta";
 import { Feature } from "@/types";
 import path from "path";
 import languages from "@/config/language.json";
-import Breadcrumbs from "@/components/Breadcrumbs";
 import { markdownify } from "@/lib/utils/textConverter";
 
 const Servicespage = ({ params }: { params: { lang: string } }) => {
@@ -35,12 +32,12 @@ const Servicespage = ({ params }: { params: { lang: string } }) => {
 
   return (
     <>
-      {/* <SeoMeta
-        title={title}
-        meta_title={meta_title}
-        description={description}
-        image={image}
-      /> */}
+      <SeoMeta
+        title={banner.title}
+        meta_title={""}
+        description={""}
+        image={banner.image}
+      />
       <PageHeader title={banner.title}>
         <h2
           className="mb-4 text-base lg:text-xl bg-clip-text text-black"
